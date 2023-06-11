@@ -4,7 +4,7 @@ import LoginForm from './LoginForm';
 import LoginCreate from './LoginCreate';
 import LoginPasswordReset from './LoginPasswordReset';
 import LoginPasswordLost from './LoginPasswordLost';
-import { UserContext } from '../../userContext';
+import { UserContext } from '../../UserContext';
 import styles from './Login.module.css';
 
 const Login = () => {
