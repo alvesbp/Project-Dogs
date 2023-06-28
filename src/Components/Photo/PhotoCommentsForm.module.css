@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: stretch;
-  margin: 1rem;
+  margin: 0.5rem 1rem;
 }
 
 .textarea {
@@ -12,10 +12,11 @@
   font-family: var(--type-first);
   resize: none;
   border: 1px solid #eee;
-  padding: 0.5rem;
+  padding: 0.8rem;
   border-radius: 0.2rem;
   background: #eee;
   transition: 0.2s;
+  margin: 0;
 }
 
 .textarea:focus,
